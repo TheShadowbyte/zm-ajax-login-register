@@ -33,6 +33,7 @@
                     <div class="noon"><label><?php _e('Confirm Password', 'ajax_login_register'); ?></label><input type="password" autocorrect="none" autocapitalize="none" required name="confirm_password" class="user_confirm_password" placeholder="<?php _e('Confirm Password', 'ajax_login_register'); ?>"/></div>
 
                     <div class="noon"><a href="#" class="already-registered-handle"><?php echo apply_filters( 'ajax_login_register_already_registered_text', __('Already registered?','ajax_login_register') ); ?></a></div>
+                    <div class="noon"><p style="margin: 0;">By creating an account, you agree with our <a href="http://legitchex.com/terms-and-conditions-of-use/">Terms of Use</a></p></div>
                     <div class="button-container">
                         <input class="register_button green" type="submit" value="<?php _e('Register','ajax_login_register'); ?>" accesskey="p" name="register" disabled />
                     </div>
